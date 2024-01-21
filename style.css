@@ -39,3 +39,39 @@ nav ul li {
     font-size: 1.3rem;
     
 }
+.container {
+    min-height: 75vh;
+    background-color: black;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    display: flex;
+    width: 60%;
+    
+    margin: 23px auto;
+
+}
+
+.buttom {
+    position: sticky;
+    height: 130px ;
+    margin-top: 12px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.icons {
+    margin: 8px;
+}
+
+.icons i {
+    cursor: pointer;
+}
+
+#myprogressbar {
+    width:  80vh;
+}
