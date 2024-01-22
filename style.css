@@ -18,7 +18,7 @@ nav ul {
     display:  flex;
     align-items: center;
     list-style-type: none;
-    height: 89px;
+    height: 80px;
     background-color: black;
     color: white;
 
@@ -40,20 +40,25 @@ nav ul li {
     
 }
 .container {
-    min-height: 75vh;
+    min-height: 70vh;
     background-color: black;
     color: white;
     font-family: 'Cabin', sans-serif;
     display: flex;
-    width: 60%;
-    
     margin: 23px auto;
+    width: 60%;
+    border-radius: 12px;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    
 
 }
 
 .buttom {
     position: sticky;
-    height: 130px ;
+    height: 80px ;
     margin-top: 12px;
     background-color: black;
     color: white;
@@ -62,6 +67,9 @@ nav ul li {
     justify-content: center;
     align-items: center;
     
+}
+.buttom i {
+    margin: 0 6px ;
 }
 
 .icons {
@@ -74,4 +82,26 @@ nav ul li {
 
 #myprogressbar {
     width:  80vh;
+}
+
+.songIteam {
+    height: 50px;
+    display: flex;
+    background-color: white;
+    color: black;
+    width: 80px;
+    margin: 12px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.songIteam img{
+    width: 43px;
+    margin: 0 23px ;
+    border-radius: 34px;
+}
+
+.timespam {
+    margin: 0 23px;
 }
